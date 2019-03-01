@@ -1,4 +1,5 @@
 # Henk Tjalsma, 2019
+# Solution to problem 2 - begins-with-t.py script
 # Write a program that outputs whether or not today is a day that begins with the letter T.
 # Verbatim: https://stackoverflow.com/a/9847269 - Return the day of the week as an integer, where Monday is 0 and Sunday is 6.
 # https://www.pythonprogramming.in/date-time/get-the-day-of-week-from-given-a-date-in-python.html
