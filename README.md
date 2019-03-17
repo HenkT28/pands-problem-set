@@ -133,7 +133,7 @@ Call me Ishmael. Some years ago--never mind how long particular to interest me o
 
 Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].
 
-$ python functions.py moby-dick.txt
+$ python functions.py
 
 ### Break down into end to end tests
 
