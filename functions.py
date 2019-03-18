@@ -8,7 +8,7 @@
 # https://stackoverflow.com/questions/22276066/how-to-plot-multiple-functions-on-the-same-figure-in-matplotlib
 
 # import numpy
-from numpy import *
+import numpy
 # import math
 import math
 #import matplotlib
