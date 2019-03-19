@@ -10,6 +10,11 @@
 # https://kapeli.com/cheat_sheets/strftime_Format_Codes.docset/Contents/Resources/Documents/index
 # https://www.programcreek.com/python/example/351/datetime.strptime
 
+# https://stackoverflow.com/questions/2925230/get-235pm-instead-of-0235pm-from-python-date-time
+# That said, bear in mind that if the "%p" term gives you uppercase letters, it may be because the user set their locale to work that way, and by changing case you are overriding user preferences, which sometimes leads to bug reports. 
+# Also, the user may want something other than "am" or "pm", such as "a.m." and "p.m.". 
+# Also note that these are different for different locales (e.g. en_US locale gives AM or PM for %p, but de_DE gives am or pm) and you might not be getting characters in the encoding you assume.
+
 
 import time
 import datetime
@@ -27,7 +32,7 @@ time_structure = datetime.strptime(time_string,"%H%M")
     # time_structure is a datetime.datetime object
 
 time_string_reform = time_structure.strftime("%I%M%p")
-    # ^ set_time comes in format "HH MM am/pm"
+    # The set_time comes in format "HH MM am/pm"
 
 day = today.day  
 
