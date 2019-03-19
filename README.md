@@ -25,6 +25,7 @@ Anaconda is a free and open-source distribution of the Python and R programming 
 Anaconda Navigator is a desktop graphical user interface (GUI) included in Anaconda distribution that allows users to launch applications and manage conda packages, environments and channels without using command-line commands.
 
 2. Also install Cmder software for running the python scripts, from command line:
+
 https://cmder.net/
 
 ### Running the python scripts.
