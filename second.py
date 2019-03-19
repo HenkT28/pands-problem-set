@@ -1,7 +1,7 @@
 # Henk Tjalsma, 2019
 # Solution to problem 9 - second.py moby-dick.txt
 # Write a program that reads in a text file and outputs every second line. The program should take the filename from an argument on the command line.
-#  
+ 
 # http://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0001
 # I will only cover, Title: Moby Dick; or The Whale, CHAPTER 1, as example.
 

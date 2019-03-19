@@ -1,6 +1,6 @@
 # Problem Set Solutions 2019 - Programming and Scripting
 
-This document contains the ten problems for Problem Set Solutions 2019, for Programming and Scripting module (GMIT  H.Dip Data Analytics  Academic Year 2018 - 2019).
+This readme contains the 10 problems, and script solutions for Problem Set Assessment 2019, for Programming and Scripting module (GMIT H.Dip Data Analytics - Academic Year 2019 - 2020).
 
 ## Getting Started - how to download the repository
 
@@ -10,21 +10,26 @@ https://github.com/HenkT28/pands-problem-set.git
 
 ### Prerequisites - how to run the code
 
-1. Make sure you have Python installed, or Cmder software for running the python scripts:
-https://www.python.org/downloads/
+1. Make sure you have Python installed, or Anaconda: 
+[a] https://www.python.org/downloads/
 
-https://cmder.net/
+Python is developed under an OSI-approved open source license, making it freely usable and distributable, even for commercial use. 
 
-
-2. Also I recommend you to download and install Anaconda:
+[b] Anaconda:
 (https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))
 
 Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing.
 Anaconda Navigator is a desktop graphical user interface (GUI) included in Anaconda distribution that allows users to launch applications and manage conda packages, environments and channels without using command-line commands.
 
+2. Also install Cmder software for running the python scripts, from command line:
+https://cmder.net/
+
 ### Running the python scripts.
 
-Python can be run in two different ways: in interactive mode or in script mode.
+Python can be run in two different ways: 
+
+[a] interactive mode
+[b] in script mode
 
 https://docs.python.org/3/tutorial/interpreter.html
 
@@ -107,7 +112,7 @@ The brown jumps the dog
 
 This program takes a positive floating point number as input and outputs an approximation of its square root.
 
-$ python squareroot.py:
+$ python squareroot.py
 
 Please enter a positive number: 14.5
 The square root of 14.5 is approx. 3.8.
@@ -129,59 +134,60 @@ Title: Moby Dick; or The Whale
 CHAPTER 1
 Call me Ishmael. Some years ago--never mind how long particular to interest me on shore, I thought I would sail about a ...
 
+I will only cover, Title: Moby Dick; or The Whale, CHAPTER 1, as example.
+
 10. functions.py:
 
-Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4]. The plots of the functions x, 2x and x2, are displayed in the same graph.
+Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4]. 
 
 $ python functions.py
 
+Please NOTE:
+The plots of the functions x, 2x and x2, are displayed in the same graph.
+
 ### Break down into end to end tests
 
-Explain what these tests test and why
+I recommend you run the python scripts from command line, from cmder for example, but make sure you go to the right directory first containing the .py scripts, by using cd command, and then run the script as follows:
+python <script_name>.py
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
+There is no need to type in full script name, just by using the tab key on your keyboard it will complete the script name automatically.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+First of all I recommend you to go to the official Python website:
+https://www.python.org/downloads/release/python-372/
+
+As of now, 19/03/19. Python 3.7.2 is the latest version available for download and can be deployed on Windows, Linux/Unix, MacOS, and other operating systems.
+
+I would suggest you consult the documentation carefully, and follow below links:
+https://www.python.org/downloads/
+
+https://docs.python.org/3.7/whatsnew/changelog.html#python-3-7-2-final
+
+Alternatvely install the full Anaconda package which has Python functionality included.
 
 ## Built With
 
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [Python](https://www.python.org/downloads/) - The official Python website
+* [cmder](https://cmder.net/) - Official cmder website
+* [Anaconda](https://www.anaconda.com/distribution/) - The open-source Anaconda Distribution is the easiest way to perform Python/R data science and machine learning on Linux, Windows, and Mac OS X.
 
-## Contributing
+## References
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+* [Ian McLoughlin] - I used some examples explained by Ian McLoughlin, during the Programming and Scripting course, as template in writing up script solutions.
 
-## Versioning
+* [Stack overflow](https://stackoverflow.com/) - I used Stack Overflow in several of my solutions, as commented in the code.
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+* Also referenced official Python websites such as:
+[1] https://www.pythonprogramming.in/
+[2] https://www.pythoncentral.io/
+[3] https://docs.python.org/
+[4] https://realpython.com/
+[5] https://www.tutorialspoint.com/
 
-## Authors
+* Any other websites I used as reference are all mentioned in the code.
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
