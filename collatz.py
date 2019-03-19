@@ -16,10 +16,13 @@ n = int(input("Please enter a positive integer: "))
 # A number is even if division by 2 give a remainder of 0.
 # If remainder is 1, it is odd number.
 
+# https://stackoverflow.com/questions/17651384/python-remove-division-decimal
+
 while n != 1:
     print (n, end=' ')
+# The script kept producing a decimal while requesting a positive integer -> integer division with // that always give a int    
     if n % 2 == 0: 
-        n = n / 2   # n is even
+        n = n // 2   # n is even
     else:  
         n = n * 3 + 1   # n is odd
             
