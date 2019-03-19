@@ -6,24 +6,32 @@
 # https://stackoverflow.com/questions/46513843/plot-math-function-fx-with-varying-values-of-x-and-for-different-values-of-n
 # https://techmonger.github.io/2/simple-parabola-matplotlib/
 # https://stackoverflow.com/questions/22276066/how-to-plot-multiple-functions-on-the-same-figure-in-matplotlib
+# https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm
 
-# import numpy
-import numpy
+# import numpy as np
+import numpy as np
 # import math
 import math
 #import matplotlib
 import matplotlib.pyplot as plt
 
-x_cords = range(0,4)
-y_x = [x for x in x_cords]
-y_2x = [2*x for x in x_cords]
-y_x2 = [x*x for x in x_cords]
+x= np.arange(0,4)
+y_x = x
+y_2x = 2 * x
+y_x2 = x*x
 
-plt.plot(x_cords, y_x, 'r')
-plt.plot(x_cords, y_2x, 'g')
-plt.plot(x_cords, y_x2, 'b')
+# Adding graph title and labels to X and Y axis
+plt.title("Matplotlib x (red), 2x (green), x2 (blue) in the range [0, 4]")
+plt.xlabel("x axis caption") 
+plt.ylabel("y axis caption") 
 
-# plt.scatter(x_cords, y_x)
-# plt.scatter(x_cords, y_2x)
-# plt.scatter(x_cords, y_x2)
+# plot may or may not plot the lines, depending on the arguments
+plt.plot(x,y_x,'r')
+plt.plot(x,y_2x,'g')
+plt.plot(x,y_x2,'b')
+
+# scatter draws points without lines connecting
+# plt.scatter(x, y_x)
+# plt.scatter(x, y_2x)
+# plt.scatter(x, y_x2)
 plt.show()
