@@ -131,7 +131,7 @@ Call me Ishmael. Some years ago--never mind how long particular to interest me o
 
 10. functions.py:
 
-Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].
+Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4]. The plots of the functions x, 2x and x2, are displayed in the same graph.
 
 $ python functions.py
 

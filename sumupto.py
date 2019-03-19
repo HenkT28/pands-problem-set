@@ -1,7 +1,7 @@
 # Henk Tjalsma, 2019
 # Solution to problem 1 - sumupto.py script
 # Write a program that asks the user to input any positive integer and outputs the sum of all numbers between one and that number. 
-# Using while loop instead.
+# Using while loop.
 
 # The number is recognized as a text string, and has to be converted to integer. Input from user has to be converted to integer.
 i = int(input("Please enter a positive integer: "))
