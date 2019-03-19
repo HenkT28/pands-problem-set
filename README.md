@@ -6,16 +6,19 @@ This readme contains the 10 problems, and script solutions for Problem Set Asses
 
 1. Go to Github - User Account: HenkT28
 2. Click on the download button, and copy/paste the link:
+
 https://github.com/HenkT28/pands-problem-set.git
 
 ### Prerequisites - how to run the code
 
 1. Make sure you have Python installed, or Anaconda: 
+
 [a] https://www.python.org/downloads/
 
 Python is developed under an OSI-approved open source license, making it freely usable and distributable, even for commercial use. 
 
 [b] Anaconda:
+
 (https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))
 
 Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing.
@@ -29,7 +32,8 @@ https://cmder.net/
 Python can be run in two different ways: 
 
 [a] interactive mode
-[b] in script mode
+
+[b] script mode
 
 https://docs.python.org/3/tutorial/interpreter.html
 
@@ -142,10 +146,11 @@ Write a program that displays a plot of the functions x, x2 and 2x in the range 
 
 $ python functions.py
 
-Please NOTE:
+NOTE:
+
 The plots of the functions x, 2x and x2, are displayed in the same graph.
 
-### Break down into end to end tests
+## Break down into end to end tests
 
 I recommend you run the python scripts from command line, from cmder for example, but make sure you go to the right directory first containing the .py scripts, by using cd command, and then run the script as follows:
 python <script_name>.py
@@ -155,11 +160,13 @@ There is no need to type in full script name, just by using the tab key on your 
 ## Deployment
 
 First of all I recommend you to go to the official Python website:
+
 https://www.python.org/downloads/release/python-372/
 
 As of now, 19/03/19. Python 3.7.2 is the latest version available for download and can be deployed on Windows, Linux/Unix, MacOS, and other operating systems.
 
 I would suggest you consult the documentation carefully, and follow below links:
+
 https://www.python.org/downloads/
 
 https://docs.python.org/3.7/whatsnew/changelog.html#python-3-7-2-final
@@ -179,10 +186,15 @@ Alternatvely install the full Anaconda package which has Python functionality in
 * [Stack overflow](https://stackoverflow.com/) - I used Stack Overflow in several of my solutions, as commented in the code.
 
 * Also referenced official Python websites such as:
+
 [1] https://www.pythonprogramming.in/
+
 [2] https://www.pythoncentral.io/
+
 [3] https://docs.python.org/
+
 [4] https://realpython.com/
+
 [5] https://www.tutorialspoint.com/
 
 * Any other websites I used as reference are all mentioned in the code.
