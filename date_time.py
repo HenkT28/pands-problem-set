@@ -27,13 +27,7 @@ from datetime import datetime
 
 today = datetime.now()
 
-time_string = str(today.hour) + str(today.minute)
-time_structure = datetime.strptime(time_string,"%H%M")
-    # time_structure is a datetime.datetime object
-
-time_string_reform = time_structure.strftime("%I%M%p")
-    # The set_time comes in format "HH MM am/pm"
-
+# Setting the day variable, used in running the if/else statement and adding 1: 'st', 2: 'nd', 3: 'rd', and otherwise 'th' to the day.
 day = today.day  
 
 if (3 < day < 21) or (23 < day < 31):
@@ -43,9 +37,7 @@ else:
   day = str(day) + suffixes[day % 10]
 
 
-date_string = today.strftime("%A, %B # %Y at %I:%M%p")  
+# date_string = today.strftime("%A, %B # %Y at %I:%M%p") - this translates to capital AM or PM.
+date_string = today.strftime("%A, %B # %Y at ") + today.strftime('%I:%M%p').lower()
 
 print(date_string.replace('#', day), end='')
-
-
-
