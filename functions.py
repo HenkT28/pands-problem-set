@@ -7,6 +7,7 @@
 # https://techmonger.github.io/2/simple-parabola-matplotlib/
 # https://stackoverflow.com/questions/22276066/how-to-plot-multiple-functions-on-the-same-figure-in-matplotlib
 # https://www.tutorialspoint.com/numpy/numpy_matplotlib.htm
+# https://matplotlib.org/users/pyplot_tutorial.html
 
 # import numpy as np
 import numpy as np
