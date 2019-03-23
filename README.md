@@ -198,7 +198,11 @@ Alternatvely install the full Anaconda package which has Python functionality in
 
 [5] https://www.tutorialspoint.com/
 
-* Any other websites I used as reference are all mentioned in the code.
+* [Other web sites] - I also used some other web sites as reference. Again they all have been mentioned in the comments section of each of the scripts. 
+
+* Finally on Github, I've created another repository that I not only used for storing handy and relevant Python scripts, but also to test some solutions for this assessment:
+
+https://github.com/HenkT28/GMIT_Programming_Scripting.git
 
 
 
