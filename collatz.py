@@ -10,7 +10,6 @@
 
 n = int(input("Please enter a positive integer: "))
 
-# def next_value(n):
 # The condition for this loop is n != 1, so it will continue until n is 1, which will make the condition false.    
 
 # A number is even if division by 2 give a remainder of 0.
