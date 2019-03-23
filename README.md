@@ -63,6 +63,7 @@ Please enter a positive integer: 10
 
 55
 
+
 2. begins-with-t.py:
 
 This program outputs whether or not today is a day that begins with the letter T. 
@@ -76,6 +77,7 @@ An example of running it on a Wednesday is as follows:
 $ python begins-with-t.py
 
 No - today does not begin with a T.
+
 
 3. divisors.py:
 
@@ -93,6 +95,7 @@ etc
 
 9990
 
+
 4. collatz.py:
 
 This program asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
@@ -100,19 +103,9 @@ This program asks the user to input any positive integer and outputs the success
 $ python collatz.py
 
 Please enter a positive integer: 10
-10 
 
-5 
+10 5 16 8 4 2 1
 
-16 
-
-8 
-
-4 
-
-2 
-
-1
 
 5. primes.py:
 
@@ -124,6 +117,7 @@ Please enter a positive integer: 19
 
 That is a prime.
 
+
 6. secondstring.py:
 
 This program takes a user input string and outputs every second word.
@@ -133,6 +127,7 @@ $ python secondstring.py
 Please enter a sentence: The quick brown fox jumps over the lazy dog.
 
 The brown jumps the dog
+
 
 7. squareroot.py:
 
@@ -144,6 +139,7 @@ Please enter a positive number: 14.5
 
 The square root of 14.5 is approx. 3.8.
 
+
 8. python date_time.py:
 
 Write a program that outputs today’s date and time in the format ”Monday, January 10th 2019 at 1:15pm”.
@@ -151,6 +147,7 @@ Write a program that outputs today’s date and time in the format ”Monday, Ja
 $ python date_time.py
 
 Monday, January 10th 2019 at 1:15pm
+
 
 9. second.py:
 
@@ -166,6 +163,7 @@ CHAPTER 1
 Call me Ishmael. Some years ago--never mind how long particular to interest me on shore, I thought I would sail about a ...
 
 [I will only cover, Title: Moby Dick; or The Whale, CHAPTER 1, as example]
+
 
 10. functions.py:
 
