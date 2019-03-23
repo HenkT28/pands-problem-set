@@ -52,7 +52,7 @@ python <script_name>.py
 
 ## Below are the ten problems, and what each script does
 
-1. sumupto.py:
+1. [sumupto.py]:
 
 This program asks the user to input any positive integer and outputs the sum of all numbers between one and that number.
 
@@ -64,7 +64,7 @@ Please enter a positive integer: 10
 55
 
 
-2. begins-with-t.py:
+2. [begins-with-t.py]:
 
 This program outputs whether or not today is a day that begins with the letter T. 
 An example of running this program on a Thursday is as follows:
@@ -79,7 +79,7 @@ $ python begins-with-t.py
 No - today does not begin with a T.
 
 
-3. divisors.py:
+3. [divisors.py]:
 
 A program that prints all numbers between 1,000 and 10,000 that are divisible by 6 but not 12.
 
@@ -96,7 +96,7 @@ etc
 9990
 
 
-4. collatz.py:
+4. [collatz.py]:
 
 This program asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
 
@@ -107,7 +107,7 @@ Please enter a positive integer: 10
 10 5 16 8 4 2 1
 
 
-5. primes.py:
+5. [primes.py]:
 
 This program asks the user to input a positive integer and tells the user whether or not the number is a prime.
 
@@ -118,7 +118,7 @@ Please enter a positive integer: 19
 That is a prime.
 
 
-6. secondstring.py:
+6. [secondstring.py]:
 
 This program takes a user input string and outputs every second word.
 
@@ -129,7 +129,7 @@ Please enter a sentence: The quick brown fox jumps over the lazy dog.
 The brown jumps the dog
 
 
-7. squareroot.py:
+7. [squareroot.py]:
 
 This program takes a positive floating point number as input and outputs an approximation of its square root.
 
@@ -140,7 +140,7 @@ Please enter a positive number: 14.5
 The square root of 14.5 is approx. 3.8.
 
 
-8. python date_time.py:
+8. [date_time.py]:
 
 Write a program that outputs today’s date and time in the format ”Monday, January 10th 2019 at 1:15pm”.
 
@@ -149,7 +149,7 @@ $ python date_time.py
 Monday, January 10th 2019 at 1:15pm
 
 
-9. second.py:
+9. [second.py]:
 
 This program reads in a text file and outputs every second line. 
 The program should take the filename from an argument on the command line.
@@ -165,15 +165,17 @@ Call me Ishmael. Some years ago--never mind how long particular to interest me o
 [I will only cover, Title: Moby Dick; or The Whale, CHAPTER 1, as example]
 
 
-10. functions.py:
+10. [functions.py]:
 
 Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4]. 
 
 $ python functions.py
 
+----------------------------------------------------------------------------------------
 NOTE:
 
 The plots of the functions x, 2x and x2, are displayed in the same graph.
+----------------------------------------------------------------------------------------
 
 ## Break down into end to end tests
 
@@ -225,7 +227,7 @@ Alternatvely install the full Anaconda package which has Python functionality in
 
 * [Other web sites] - I also used some other web sites as reference. Again they have been mentioned in the comments section of each of the scripts. 
 
-* Finally on Github, I've created another repository that I not only used for storing handy and relevant Python scripts, but also to test some solutions for this assessment:
+* [Github] - Finally I've created another repository on GitHub, that I not only used for storing handy and relevant Python scripts, but also to test some solutions for this assessment:
 
 https://github.com/HenkT28/GMIT_Programming_Scripting.git
 
