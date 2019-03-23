@@ -151,8 +151,9 @@ Monday, January 10th 2019 at 1:15pm
 
 9. [second.py]:
 
-This program reads in a text file and outputs every second line. 
-The program should take the filename from an argument on the command line.
+* This program reads in a text file and outputs every second line. 
+
+* The program should take the filename from an argument on the command line.
 
 $ python second.py moby-dick.txt
 
@@ -173,9 +174,8 @@ $ python functions.py
 
 ----------------------------------------------------------------------------------------
 NOTE:
-
 The plots of the functions x, 2x and x2, are displayed in the same graph.
-----------------------------------------------------------------------------------------
+
 
 ## Break down into end to end tests
 
