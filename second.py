@@ -13,8 +13,8 @@
 
 import sys
 
-# script = sys.argv[0]
-# filename = sys.argv[1]
+script = sys.argv[0]
+filename = sys.argv[1]
 
 infile = open(sys.argv[1], "r")
 lineList = infile.readlines()
