@@ -28,7 +28,4 @@ for line in lineList:
         # Print line 
         print (line)
 infile.close()
- 
-
-
            
