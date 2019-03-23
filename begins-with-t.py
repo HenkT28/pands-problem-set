@@ -15,11 +15,13 @@ import datetime
 # Using single or statement
 if datetime.datetime.today().weekday() == 1 or datetime.datetime.today().weekday() == 3:
    print("Yes - today begins with a T.")
-   print("weekday():", datetime.datetime.today().weekday())   
-   print("isoweekday()", datetime.datetime.today().isoweekday())
+# This can be uncommented in case you want to know weekday and isoweekday    
+   # print("weekday():", datetime.datetime.today().weekday())   
+   # print("isoweekday()", datetime.datetime.today().isoweekday())
 else:
    print("No - today does not begin with a T.")
-   print("weekday():", datetime.datetime.today().weekday())   
-   print("isoweekday()", datetime.datetime.today().isoweekday())    
+# This can be uncommented in case you want to know weekday and isoweekday     
+   # print("weekday():", datetime.datetime.today().weekday())   
+   # print("isoweekday()", datetime.datetime.today().isoweekday())    
 
 
