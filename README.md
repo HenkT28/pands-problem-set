@@ -47,6 +47,7 @@ The normal mode, the script mode, is the mode where the scripted and finished .p
 As this problem set contains all completed .py scripts, I suggest you run the scripts in normal mode. 
 
 For example, from cmder go to the directory containing the .py scripts, by using cd command, and run the programs as follows:
+
 python <script_name>.py
 
 ## Below are the ten problems, and what each script does
@@ -59,12 +60,14 @@ For example:
 $ python sumupto.py
 
 Please enter a positive integer: 10
+
 55
 
 2. begins-with-t.py:
 
 This program outputs whether or not today is a day that begins with the letter T. 
 An example of running this program on a Thursday is as follows:
+
 $ python begins-with-t.py
 
 Yes - today begins with a T.
@@ -81,9 +84,13 @@ A program that prints all numbers between 1,000 and 10,000 that are divisible by
 $ python divisors.py
 
 1002
+
 1014
+
 1026
+
 etc
+
 9990
 
 4. collatz.py:
@@ -93,7 +100,19 @@ This program asks the user to input any positive integer and outputs the success
 $ python collatz.py
 
 Please enter a positive integer: 10
-10 5 16 8 4 2 1
+10 
+
+5 
+
+16 
+
+8 
+
+4 
+
+2 
+
+1
 
 5. primes.py:
 
@@ -102,6 +121,7 @@ This program asks the user to input a positive integer and tells the user whethe
 $ python primes.py
 
 Please enter a positive integer: 19
+
 That is a prime.
 
 6. secondstring.py:
@@ -111,6 +131,7 @@ This program takes a user input string and outputs every second word.
 $ python secondstring.py
 
 Please enter a sentence: The quick brown fox jumps over the lazy dog.
+
 The brown jumps the dog
 
 7. squareroot.py:
@@ -120,6 +141,7 @@ This program takes a positive floating point number as input and outputs an appr
 $ python squareroot.py
 
 Please enter a positive number: 14.5
+
 The square root of 14.5 is approx. 3.8.
 
 8. python date_time.py:
@@ -127,19 +149,23 @@ The square root of 14.5 is approx. 3.8.
 Write a program that outputs today’s date and time in the format ”Monday, January 10th 2019 at 1:15pm”.
 
 $ python date_time.py
+
 Monday, January 10th 2019 at 1:15pm
 
 9. second.py:
 
-This program reads in a text file and outputs every second line. The program should take the filename from an argument on the command line.
+This program reads in a text file and outputs every second line. 
+The program should take the filename from an argument on the command line.
 
 $ python second.py moby-dick.txt
 
 Title: Moby Dick; or The Whale
+
 CHAPTER 1
+
 Call me Ishmael. Some years ago--never mind how long particular to interest me on shore, I thought I would sail about a ...
 
-I will only cover, Title: Moby Dick; or The Whale, CHAPTER 1, as example.
+[I will only cover, Title: Moby Dick; or The Whale, CHAPTER 1, as example]
 
 10. functions.py:
 
@@ -154,9 +180,10 @@ The plots of the functions x, 2x and x2, are displayed in the same graph.
 ## Break down into end to end tests
 
 I recommend you run the python scripts from command line, from cmder for example, but make sure you go to the right directory first containing the .py scripts, by using cd command, and then run the script as follows:
+
 python <script_name>.py
 
-There is no need to type in full script name, just by using the tab key on your keyboard it will complete the script name automatically.
+There is no need to type in full script name, just by using the tab key on your keyboard it will auto-complete the script name automatically, from the folder location.
 
 ## Deployment
 
@@ -182,7 +209,7 @@ Alternatvely install the full Anaconda package which has Python functionality in
 
 ## References
 
-* [Ian McLoughlin] - I used some examples explained by Ian McLoughlin, during the Programming and Scripting course, as template in writing up script solutions.
+* [Ian McLoughlin] - I used some test examples explained by Ian McLoughlin, during the Programming and Scripting course, as template in writing up script solutions.
 
 * [Stack overflow](https://stackoverflow.com/) - I used Stack Overflow in several of my solutions, as commented in the code.
 
@@ -198,7 +225,7 @@ Alternatvely install the full Anaconda package which has Python functionality in
 
 [5] https://www.tutorialspoint.com/
 
-* [Other web sites] - I also used some other web sites as reference. Again they all have been mentioned in the comments section of each of the scripts. 
+* [Other web sites] - I also used some other web sites as reference. Again they have been mentioned in the comments section of each of the scripts. 
 
 * Finally on Github, I've created another repository that I not only used for storing handy and relevant Python scripts, but also to test some solutions for this assessment:
 
