@@ -172,8 +172,9 @@ Write a program that displays a plot of the functions x, x2 and 2x in the range 
 
 $ python functions.py
 
-----------------------------------------------------------------------------------------
+
 NOTE:
+
 The plots of the functions x, 2x and x2, are displayed in the same graph.
 
 
