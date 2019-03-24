@@ -7,10 +7,6 @@
 # import Python's datetime module
 import datetime
 
-# Testing on Sunday 17/03/2019
-# if datetime.datetime.today().weekday() == 6:
-#  print("Yippee!")
-
 # Tuesday and Thursday - both begin with T, weekday 1, and weekday 3
 # Using single or statement
 if datetime.datetime.today().weekday() == 1 or datetime.datetime.today().weekday() == 3:
