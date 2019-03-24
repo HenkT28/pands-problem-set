@@ -3,7 +3,7 @@
 # Write a program that reads in a text file and outputs every second line. The program should take the filename from an argument on the command line.
 
 # http://www.gutenberg.org/files/2701/2701-h/2701-h.htm#link2HCH0001
-# I will only cover, Title: Moby Dick; or The Whale, CHAPTER 1, as example.
+# I will only cover, Title: Moby Dick; or The Whale, CHAPTER 1, as example -> see moby-dick.txt file
 
 # Rewriting script, as the program should take the filename from an argument on the command line.
 # Initially I was reading the file in my python code directly rather than calling the text file in as an argument on the command line. 
