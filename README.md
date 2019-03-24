@@ -74,6 +74,7 @@ $ python begins-with-t.py
 Yes - today begins with a T.
 
 An example of running it on a Wednesday is as follows:
+
 $ python begins-with-t.py
 
 No - today does not begin with a T.
