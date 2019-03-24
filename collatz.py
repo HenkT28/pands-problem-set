@@ -6,8 +6,6 @@
 # ...but if it is odd, multiply it by three and add one. 
 # Have the program end if the current value is one.
 
-# http://www.openbookproject.net/thinkcs/python/english2e/ch06.html
-
 n = int(input("Please enter a positive integer: "))
 
 # The condition for this loop is n != 1, so it will continue until n is 1, which will make the condition false.    
@@ -24,4 +22,4 @@ while n != 1:
         n = n // 2   # n is even
     else:  
         n = n * 3 + 1   # n is odd
-            
+       
