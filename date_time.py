@@ -38,6 +38,7 @@ else:
 
 
 # date_string = today.strftime("%A, %B # %Y at %I:%M%p") - this translates to capital AM or PM.
+# Divided up date_string, and to this part - today.strftime('%I:%M%p') - added lower() clause that ensures upper case AM/PM is now lower case am/pm.
 date_string = today.strftime("%A, %B # %Y at ") + today.strftime('%I:%M%p').lower()
 
 print(date_string.replace('#', day), end='')
