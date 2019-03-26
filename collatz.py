@@ -17,9 +17,10 @@ n = int(input("Please enter a positive integer: "))
 
 while n != 1:
     print (n, end=' ')
-# The script kept producing a decimal while requesting a positive integer -> integer division with // that always give a int    
+    # The script kept producing a decimal while requesting a positive integer -> integer division with // that always give a int    
     if n % 2 == 0: 
         n = n // 2   # n is even
     else:  
         n = n * 3 + 1   # n is odd
-       
+else:
+    print (n, end=' ')      
