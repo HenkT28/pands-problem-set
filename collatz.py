@@ -12,6 +12,7 @@ n = int(input("Please enter a positive integer: "))
 
 # A number is even if division by 2 give a remainder of 0.
 # If remainder is 1, it is odd number.
+# While statement requires else, otherwise 1 will not be included in the output.
 
 # https://stackoverflow.com/questions/17651384/python-remove-division-decimal
 
