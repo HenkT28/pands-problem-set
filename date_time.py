@@ -1,7 +1,8 @@
 # Henk Tjalsma, 2019
 # Solution to problem 8 - datetime.py
 # Write a program that outputs today’s date and time in the format ”Monday, January 10th 2019 at 1:15pm”.
-# Verbatim: https://www.guru99.com/date-time-and-datetime-classes-in-python.html
+
+# https://www.guru99.com/date-time-and-datetime-classes-in-python.html
 # https://tecadmin.net/get-current-date-time-python/
 # https://www.robjwells.com/2013/10/date-suffixes-in-python/
 # http://strftime.net/
@@ -15,7 +16,7 @@
 # Also, the user may want something other than "am" or "pm", such as "a.m." and "p.m.". 
 # Also note that these are different for different locales (e.g. en_US locale gives AM or PM for %p, but de_DE gives am or pm) and you might not be getting characters in the encoding you assume.
 
-
+# Importing the modules
 import time
 import datetime
 
@@ -23,11 +24,12 @@ from time import strftime
 from datetime import date
 from datetime import datetime
 
-# %A, %B %e %Y %H %M %r
+# Python has strptime() method which parses a string representing a time according to a format - examples: %A, %B %e %Y %H %M %r
+# https://stackoverflow.com/questions/49809512/check-format-of-string-in-python/49810145#49810145
 
 today = datetime.now()
 
-# Setting the day variable, used in running the if/else statement and adding 1: 'st', 2: 'nd', 3: 'rd', and otherwise 'th' to the day.
+# Setting the day variable, used in running the if/else statement and adding 1: 'st', 2: 'nd', 3: 'rd', and otherwise 'th' to the day string.
 day = today.day  
 
 if (3 < day < 21) or (23 < day < 31):
@@ -35,7 +37,6 @@ if (3 < day < 21) or (23 < day < 31):
 else:
   suffixes = {1: 'st', 2: 'nd', 3: 'rd'}
   day = str(day) + suffixes[day % 10]
-
 
 # date_string = today.strftime("%A, %B # %Y at %I:%M%p") - this translates to capital AM or PM.
 # Divided up date_string, and to this part - today.strftime('%I:%M%p') - added lower() clause that ensures upper case AM/PM is now lower case am/pm.
