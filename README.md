@@ -8,7 +8,10 @@ GMIT email address: G00376321@gmit.ie
 
 ## Getting Started - how to download the Pands-Problem-Set repository
 
-1. Go to Github web site - User Account: HenkT28 (https://github.com/HenkT28)
+1. Go to Github web site - User Account: HenkT28 
+
+(https://github.com/HenkT28)
+
 2. Click on the download button, and copy/paste the link:
 
 https://github.com/HenkT28/pands-problem-set.git
