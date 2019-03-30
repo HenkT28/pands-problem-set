@@ -43,6 +43,7 @@ Python can be run in two different ways:
 [b] script mode
 
 See below links for more info:
+
 https://docs.python.org/3/tutorial/interpreter.html
 
 https://en.wikibooks.org/wiki/Python_Programming/Interactive_mode
@@ -77,6 +78,7 @@ Please enter a positive integer: 10
 2. [begins-with-t.py]:
 
 This program outputs whether or not today is a day that begins with the letter T. 
+
 An example of running this program on a Thursday is as follows:
 
 $ python begins-with-t.py
@@ -109,7 +111,11 @@ etc
 
 4. [collatz.py]:
 
-This program asks the user to input any positive integer and outputs the successive values of the following calculation. At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. Have the program end if the current value is one.
+This program asks the user to input any positive integer and outputs the successive values of the following calculation. 
+
+* At each step calculate the next value by taking the current value and, if it is even, divide it by two, but if it is odd, multiply it by three and add one. 
+
+* Have the program end if the current value is one.
 
 $ python collatz.py
 
@@ -232,6 +238,7 @@ https://code.visualstudio.com/download
 It's a free and open source. It has Integrated Git, debugging and extensions. 
 
 It can be accessed from Cmder prompt, by typing the following shortcut:
+
 λ code .
 
 https://code.visualstudio.com/docs/setup/windows
@@ -241,11 +248,13 @@ Tip:
 Setup will add Visual Studio Code to your %PATH%, so from the console you can type 'code .' to open VS Code on that folder. 
 
 [a] Make sure you go to the directory first containing the python scripts.
+
 [b] Once you're in the correct directory, enter the shortcut command, and keep in mind there is a space between word code and the dot.
 
 ## References
 
 [1] Software Freedom Conservancy. Git.
+
 https://git-scm.com/
 
 [2] Inc. GitHub. Github.
