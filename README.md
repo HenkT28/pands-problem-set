@@ -2,9 +2,12 @@
 
 This readme contains the 10 problems, and script solutions for Problem Set Assessment 2019, for Programming and Scripting module (GMIT H.Dip Data Analytics - Academic Year 2019 - 2020).
 
-## Getting Started - how to download the repository
+Student: Henk Tjalsma
+GMIT email address: G00376321@gmit.ie
 
-1. Go to Github - User Account: HenkT28
+## Getting Started - how to download the Pands-Problem-Set repository
+
+1. Go to Github web site - User Account: HenkT28 (https://github.com/HenkT28)
 2. Click on the download button, and copy/paste the link:
 
 https://github.com/HenkT28/pands-problem-set.git
@@ -19,12 +22,14 @@ Python is developed under an OSI-approved open source license, making it freely 
 
 [b] Anaconda:
 
-(https://en.wikipedia.org/wiki/Anaconda_(Python_distribution))
+https://www.anaconda.com/distribution/
 
-Anaconda is a free and open-source distribution of the Python and R programming languages for scientific computing.
-Anaconda Navigator is a desktop graphical user interface (GUI) included in Anaconda distribution that allows users to launch applications and manage conda packages, environments and channels without using command-line commands.
+https://docs.anaconda.com/anaconda/
 
-2. Also install Cmder software for running the python scripts, from command line:
+Anaconda® is a package manager, an environment manager, a Python/R data science distribution, and a collection of over 1,500+ open source packages. Anaconda is free and easy to install, and it offers free community support.
+Anaconda3 includes Python 3.7.
+
+2. Also install Cmder software for running the python scripts from command line:
 
 https://cmder.net/
 
@@ -36,6 +41,7 @@ Python can be run in two different ways:
 
 [b] script mode
 
+See below links for more info:
 https://docs.python.org/3/tutorial/interpreter.html
 
 https://en.wikibooks.org/wiki/Python_Programming/Interactive_mode
@@ -44,13 +50,16 @@ http://www.pybloggers.com/2017/10/coding-in-interactive-mode-vs-script-mode/
 
 The normal mode, the script mode, is the mode where the scripted and finished .py files are run in the Python interpreter. Instead of having to run one line or block of code at a time (interactive mode), you can run all the code at once. 
 
-As this problem set contains all completed .py scripts, I suggest you run the scripts in normal mode. 
+As this problem set contains completed .py scripts, I suggest you run the scripts in normal mode. 
 
 For example, from cmder go to the directory containing the .py scripts, by using cd command, and run the programs as follows:
 
 python <script_name>.py
 
 ## Below are the ten problems, and what each script does
+
+For some of the following questions, examples of running the program are given. Lines beginning with a dollar sign are typed at the command line, and the other lines are part of the programs.
+
 
 1. [sumupto.py]:
 
@@ -156,6 +165,7 @@ Monday, January 10th 2019 at 1:15pm
 
 * The program should take the filename from an argument on the command line.
 
+
 $ python second.py moby-dick.txt
 
 Title: Moby Dick; or The Whale
@@ -176,7 +186,7 @@ $ python functions.py
 
 NOTE:
 
-The plots of the functions x, 2x and x2, are displayed in the same graph.
+The plots of the functions x, 2x and x2, are displayed in the same graph, and color coded to make it easier to interpret.
 
 
 ## Break down into end to end tests
@@ -201,6 +211,7 @@ https://www.python.org/downloads/
 
 https://docs.python.org/3.7/whatsnew/changelog.html#python-3-7-2-final
 
+
 Alternatvely install the full Anaconda package which has Python functionality included.
 
 ## Built With
@@ -208,6 +219,28 @@ Alternatvely install the full Anaconda package which has Python functionality in
 * [Python](https://www.python.org/downloads/) - The official Python website
 * [cmder](https://cmder.net/) - Official cmder website
 * [Anaconda](https://www.anaconda.com/distribution/) - The open-source Anaconda Distribution is the easiest way to perform Python/R data science and machine learning on Linux, Windows, and Mac OS X.
+
+## Reading script code
+
+If you want to read the script code, and accompanying Problem Assessment README, most text editors would be sufficient, but I recommend notepad ++ or even better visual studio code. 
+
+https://code.visualstudio.com/
+
+https://code.visualstudio.com/download
+
+It's a free and open source. It has Integrated Git, debugging and extensions. 
+
+It can be accessed from Cmder prompt, by typing the following shortcut:
+λ code .
+
+https://code.visualstudio.com/docs/setup/windows
+
+Tip: 
+
+Setup will add Visual Studio Code to your %PATH%, so from the console you can type 'code .' to open VS Code on that folder. 
+
+[a] Make sure you go to the directory first containing the python scripts.
+[b] Once you're in the correct directory, enter the shortcut command, and keep in mind there is a space between word code and the dot.
 
 ## References
 
@@ -217,11 +250,12 @@ https://git-scm.com/
 [2] Inc. GitHub. Github.
 
 https://github.com/.
+
 [3] GMIT. Quality assurance framework.
 
 https://www.gmit.ie/general/quality-assurance-framework.
 
-[4] [Ian McLoughlin] - I used some test examples explained by Ian McLoughlin, during the Programming and Scripting course, as template in writing up script solutions.
+[4] [Ian McLoughlin - GMIT lecturer] - I used some test examples explained by Ian McLoughlin, during the course, as template in writing up final script solutions.
 
 [5] [Stack overflow](https://stackoverflow.com/) - I used Stack Overflow in several of my solutions, as commented in the code.
 
@@ -239,8 +273,7 @@ https://www.gmit.ie/general/quality-assurance-framework.
 
 * https://www.tutorialspoint.com/
 
-
-[8] [Github testing repository] - Finally I've created another repository on GitHub, that I not only used for storing handy and relevant Python scripts, but also to test some solutions for this assessment:
+[8] [Github Test repository] - Finally I've created another repository on my GitHub account, that I not only used for storing handy and relevant Python scripts, but also to test some solutions for this assessment:
 
 https://github.com/HenkT28/GMIT_Programming_Scripting.git
 
