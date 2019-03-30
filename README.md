@@ -3,6 +3,7 @@
 This readme contains the 10 problems, and script solutions for Problem Set Assessment 2019, for Programming and Scripting module (GMIT H.Dip Data Analytics - Academic Year 2019 - 2020).
 
 Student: Henk Tjalsma
+
 GMIT email address: G00376321@gmit.ie
 
 ## Getting Started - how to download the Pands-Problem-Set repository
