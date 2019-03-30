@@ -1,6 +1,7 @@
 # Henk Tjalsma, 2019
 # Solution to problem 10 - functions.py script
 # Write a program that displays a plot of the functions x, x2 and 2x in the range [0, 4].
+
 # https://realpython.com/python-matplotlib-guide/
 # https://matplotlib.org/1.4.2/users/pyplot_tutorial.html
 # https://stackoverflow.com/questions/46513843/plot-math-function-fx-with-varying-values-of-x-and-for-different-values-of-n
@@ -16,7 +17,10 @@ import math
 #import matplotlib
 import matplotlib.pyplot as plt
 
+# Setting range, [0, 4]
 x= np.arange(0,4)
+
+# Graph parabola, for x, x2 and 2x
 y_x = x
 y_2x = 2 * x
 y_x2 = x*x
@@ -31,8 +35,10 @@ plt.plot(x,y_x,'r')
 plt.plot(x,y_2x,'g')
 plt.plot(x,y_x2,'b')
 
+# Uncomment below if you want scatter draws points without lines connecting. Comment out above plot first. Color coding does not work with this syntax, so r, g, and b.
 # scatter draws points without lines connecting
 # plt.scatter(x, y_x)
 # plt.scatter(x, y_2x)
 # plt.scatter(x, y_x2)
+
 plt.show()
