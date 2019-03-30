@@ -1,14 +1,16 @@
 # Henk Tjalsma, 2019
 # Solution to problem 5 - primes.py script
 # Write a program that asks the user to input a positive integer and tells the user whether or not the number is a prime.
+
 # Used prime test example as template, with range, explained in the course. 
 
-# A prime number is an integer (that is, a whole number) that is greater than 1 and has only two factors: 1 and itself (note that 1 is not considered a prime number)
+# A prime number is an integer (that is, a whole number) that is greater than 1 and has only two factors: 1 and itself (note that 1 is not considered a prime number).
 
-# Verbatim: https://inventwithpython.com/hacking/chapter23.html
+# https://inventwithpython.com/hacking/chapter23.html
 # https://www.programiz.com/python-programming/examples/prime-number
 # https://www.numbers.education/
 
+# Asking for positive integer, and verify if it is a prime number, or not.
 n = int(input("Please enter a positive integer: "))
 
 # Prime numbers are greater than 1.
