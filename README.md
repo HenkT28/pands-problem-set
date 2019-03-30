@@ -211,25 +211,36 @@ Alternatvely install the full Anaconda package which has Python functionality in
 
 ## References
 
-* [Ian McLoughlin] - I used some test examples explained by Ian McLoughlin, during the Programming and Scripting course, as template in writing up script solutions.
+[1] Software Freedom Conservancy. Git.
+https://git-scm.com/
 
-* [Stack overflow](https://stackoverflow.com/) - I used Stack Overflow in several of my solutions, as commented in the code.
+[2] Inc. GitHub. Github.
 
-* Also referenced official Python websites such as:
+https://github.com/.
+[3] GMIT. Quality assurance framework.
 
-[1] https://www.pythonprogramming.in/
+https://www.gmit.ie/general/quality-assurance-framework.
 
-[2] https://www.pythoncentral.io/
+[4] [Ian McLoughlin] - I used some test examples explained by Ian McLoughlin, during the Programming and Scripting course, as template in writing up script solutions.
 
-[3] https://docs.python.org/
+[5] [Stack overflow](https://stackoverflow.com/) - I used Stack Overflow in several of my solutions, as commented in the code.
 
-[4] https://realpython.com/
+[6] [Other web sites] - I also used some other web sites as reference. Again they have been mentioned in the comments section of each of the scripts. 
 
-[5] https://www.tutorialspoint.com/
+[7] Also referenced official Python websites such as:
 
-* [Other web sites] - I also used some other web sites as reference. Again they have been mentioned in the comments section of each of the scripts. 
+* https://www.pythonprogramming.in/
 
-* [Github] - Finally I've created another repository on GitHub, that I not only used for storing handy and relevant Python scripts, but also to test some solutions for this assessment:
+* https://www.pythoncentral.io/
+
+* https://docs.python.org/
+
+* https://realpython.com/
+
+* https://www.tutorialspoint.com/
+
+
+[8] [Github testing repository] - Finally I've created another repository on GitHub, that I not only used for storing handy and relevant Python scripts, but also to test some solutions for this assessment:
 
 https://github.com/HenkT28/GMIT_Programming_Scripting.git
 
