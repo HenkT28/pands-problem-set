@@ -9,7 +9,7 @@
 # https://stackoverflow.com/questions/3453085/what-is-double-colon-in-python-when-subscripting-sequences
 
 # Enter the user input string
-sentenceInput=(input("Please enter sentence: "))
+sentenceInput=(input("Please enter a sentence: "))
 
 # Example string = 'The quick brown fox jumps over the lazy dog.'
 # Extract the elements -> every_second_word = sentenceInput.split(' ')[::2]
